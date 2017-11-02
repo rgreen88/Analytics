@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Analytics</string>
+    <string name="onjump">onJump</string>
+    <string name="onattack">onAttack</string>
+</resources>

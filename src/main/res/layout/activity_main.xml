@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rynel.analytics.MainActivity">
+
+    <Button
+        android:onClick="onJump"
+        android:id="@+id/btnJump"
+        android:text="@string/onjump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="onAttack"
+        android:id="@+id/btnAttack"
+        android:text="@string/onattack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="onRoll"
+        android:id="@+id/btnRoll"
+        android:text="@string/onjump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="onSprint"
+        android:id="@+id/btnSprint"
+        android:text="@string/onjump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="onStart"
+        android:id="@+id/btnStartTime"
+        android:text="onStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick" />
+    <Button
+        android:onClick="onDestroy"
+        android:id="@+id/btnStop"
+        android:text="onStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="onTrackTime"
+        android:id="@+id/btnTrack"
+        android:text="onTrack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Force Crash!"
+        android:onClick="forceCrash"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</LinearLayout>
